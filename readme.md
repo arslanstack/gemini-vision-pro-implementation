@@ -1,4 +1,4 @@
-# Gemini Vision Pro API with Multimodal Prompts in JavaScript (Node.js & Express.js)
+# Gemini Vision Pro API with Multimodal Prompts Integration with JavaScript (Node.js & Express.js)
 
 This project implements the Gemini Pro Vision LLM (Google Generative AI) library to process text and images together, producing relevant text responses. The Gemini Pro Vision model excels at multimodal tasks, including visual understanding, classification, summarization, and content creation from images and videos.
 
