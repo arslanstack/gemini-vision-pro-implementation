@@ -4,21 +4,21 @@ import * as fs from "fs";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-const template = `Task: Analyze image.
+const template = `Task: Image Analysis and Textual Description
 
 Step 1: Image Recognition and Verification
 
-Analyze photo provided to you and determine if there is a thing, place or person(s) in the photo.
+Examine the provided image to identify and verify the presence of objects, locations, or individuals.
 
 Step 2: Data Extraction
 
-Analyze if there is a thing, place or person(s) in the photo. Give information about that particular thing, place or person(s) in the photo.
+For identified elements in the photo, extract detailed information about the specific objects, places, or individuals present.
 
 Step 3: Reporting in a Strict Three-Sentence Format
 
-First Sentence: What is the thing, place or person(s) in the photo?
-Second Sentence: Give name of the person(s) in the image or name of the brand of thing or name of the place in the image?
-Third Sentence: Any other relevant information.
+First Sentence: Describe the nature of the object, place, or person(s) captured in the photo.
+Second Sentence: Provide names, including individuals, brands, or locations featured in the image.
+Third Sentence: Include any additional pertinent details or relevant information associated with the identified elements.
 `;
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
