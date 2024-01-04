@@ -45,8 +45,5 @@ The script uses the Google Generative AI library to generate content based on a 
 ## Snapshots
 
 ![image](./postman.png)
-![image](./console.png)
-<<<<<<< HEAD
-=======
 
->>>>>>> a6f5c46f9056de5f42eba9c5d1b57ab4769448b0
+![image](./terminal.png)
