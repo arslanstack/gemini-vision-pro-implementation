@@ -41,3 +41,12 @@ Gemini Pro Vision is a versatile large language vision model that interprets inp
 
 ## Functionality
 The script uses the Google Generative AI library to generate content based on a template and an image. The `model.generateContent` function is used to generate the content. It takes an array as an argument, which includes the template and the image data. The generated content is then logged to the console or sent in API response.
+
+## Snapshots
+
+![image](./postman.png)
+![image](./console.png)
+<<<<<<< HEAD
+=======
+
+>>>>>>> a6f5c46f9056de5f42eba9c5d1b57ab4769448b0

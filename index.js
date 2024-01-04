@@ -14,11 +14,11 @@ Step 2: Data Extraction
 
 For identified elements in the photo, extract detailed information about the specific objects, places, or individuals present.
 
-Step 3: Reporting in a Strict Three-Sentence Format
+Step 3: Reporting in a Strict Three-Step Format
 
-First Sentence: Describe the nature of the object, place, or person(s) captured in the photo.
-Second Sentence: Provide names, including individuals, brands, or locations featured in the image.
-Third Sentence: Include any additional pertinent details or relevant information associated with the identified elements.
+First Step: Describe the nature of the object, place, or person(s) captured in the photo.
+Second Step: Provide names, including individuals, brands, or locations featured in the image.
+Third Step: Include any additional pertinent details or relevant information associated with the identified elements.
 `;
 
 const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
